@@ -1,0 +1,60 @@
+project:
+  type: website
+
+website:
+  title: "European Bioconductor Conference 2025"
+  navbar:
+    toggle-position: right
+    background: "#00d2ff"
+    logo: images/bioclogo.svg
+    logo-alt: "Bioconductor"
+    title: false
+    collapse-below: lg
+    right:
+      - href: speakers/index.qmd
+        text: Speakers
+      - href: schedule/index.qmd
+        text: Schedule
+      - href: submissions/index.qmd
+        text: Submissions
+      - href: registration/index.qmd
+        text: Registration
+      - href: venue/index.qmd
+        text: Venue
+      - href: sponsors/index.qmd
+        text: Sponsors
+
+page-navigation: true
+
+back-to-top-navigation: false
+
+page-footer:
+  background: "#000000"
+  left: |
+    [Copyright &copy; 2024 Bioconductor](/LICENCE.md)
+  center:
+    - href: https://github.com/Bioconductor/EuroBioC2025
+      icon: github
+      aria-label: GitHub
+    - href: https://genomic.social/@bioconductor
+      icon: mastodon
+      aria-label: Mastodon
+    - href: https://www.linkedin.com/company/bioconductor
+      icon: linkedin
+      aria-label: LinkedIn
+    - href: https://slack.bioconductor.org
+      icon: slack
+      aria-label: Slack
+
+  right: |
+    [Code of Conduct](https://www.bioconductor.org/about/code-of-conduct)
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+    grid:
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 250px

@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "7d882ca7"
+  },
+  "about.qmd": {
+    "about.html": "585fa3c6"
+  },
+  "about/index.qmd": {
+    "index.html": "a2a55260"
+  },
+  "speakers/index.qmd": {
+    "index.html": "96bcc176"
+  },
+  "schedule/index.qmd": {
+    "index.html": "9f6899bc"
+  },
+  "registration/index.qmd": {
+    "index.html": "128db8bd"
+  },
+  "venue/index.qmd": {
+    "index.html": "a240f45e"
+  },
+  "sponsors/index.qmd": {
+    "index.html": "5e856921"
+  },
+  "submissions/about/index.qmd": {
+    "index.html": "901b59a3"
+  },
+  "submissions/index.qmd": {
+    "index.html": "f2bc62c0"
+  }
+}

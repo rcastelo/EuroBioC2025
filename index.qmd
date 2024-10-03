@@ -1,0 +1,39 @@
+---
+pagetitle: "European Bioconductor Conference 2025"
+page-layout: custom
+section-divs: false
+editor: source
+sidebar: false
+search: false
+repo-actions: false
+description: |
+  EuroBioC2025 is the European edition of the Bioconductor conference that will take place on September 17th to 19th, 2025, in Barcelona, Spain. EuroBioC2025 will bring together the Bioconductor community to showcase the latest cutting-edge developments on the Bioconductor software packages, as well as on broader emerging technologies impacting computational biology.
+image: images/bioclogo.svg
+toc: false
+---
+
+![](images/prbb_beach.png)
+
+::: {.header-text}
+::: {.content-container}
+The European Bioconductor Conference (EuroBioC2025) will take place
+on September 17-19, 2025, at the Barcelona Biomedical Research Park
+([PRBB](https://prbb.org)), in Barcelona, Spain. EuroBioC2025 will
+bring showcase the latest cutting-edge developments on the Bioconductor
+software packages, as well as on broader emerging technologies impacting
+computational biology.
+
+## Keynote speakers
+
+## Schedule
+
+## Submissions
+
+## Registration
+
+## Venue
+
+## Sponsors
+
+:::
+:::
