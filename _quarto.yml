@@ -1,28 +1,27 @@
 project:
   type: website
-
+  
 website:
   title: "European Bioconductor Conference 2025"
   navbar:
     toggle-position: right
-    background: "#00d2ff"
     logo: images/bioclogo.svg
     logo-alt: "Bioconductor"
     title: false
     collapse-below: lg
     right:
-      - href: speakers/index.qmd
-        text: Speakers
-      - href: schedule/index.qmd
-        text: Schedule
-      - href: submissions/index.qmd
-        text: Submissions
-      - href: registration/index.qmd
-        text: Registration
-      - href: venue/index.qmd
-        text: Venue
-      - href: sponsors/index.qmd
-        text: Sponsors
+      - href: pages/schedule.qmd
+      - href: pages/speakers.qmd
+      - href: pages/submissions.qmd
+      - href: pages/registration.qmd
+      - href: pages/venue.qmd
+      - href: pages/sponsors.qmd
+      - text: About
+        menu:
+          - href: pages/organizers.qmd
+          - href: pages/past-events.qmd
+          - href: pages/code-of-conduct.qmd
+          - href: pages/travel-information.qmd
 
 page-navigation: true
 

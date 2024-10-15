@@ -1,0 +1,19 @@
+# Speakers
+
+```{r results="asis", echo=FALSE}
+for (x in yaml::read_yaml("../data/speakers.yaml")) {
+cat(":::: {.columns}\n")
+cat("##", x$nom, "\n")
+# 1st column
+cat("::: {.column width=66%}\n")
+cat("**", x$pos, "**\n\n", sep="")
+cat(x$txt, "\n\n")
+cat(sprintf("[%s]()", x$web), "\n")
+cat(":::\n")
+# 2nd column
+cat("::: {.column width=33%}\n")
+cat(sprintf("![](../images/speakers/%s)", x$pic), "\n")
+cat(":::\n")
+cat("::::\n")
+}
+```

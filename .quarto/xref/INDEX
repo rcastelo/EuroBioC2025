@@ -28,5 +28,44 @@
   },
   "submissions/index.qmd": {
     "index.html": "f2bc62c0"
+  },
+  "contents/code-of-conduct.qmd": {
+    "code-of-conduct.html": "14340149"
+  },
+  "contents/organizers.qmd": {
+    "organizers.html": "bb1e05f1"
+  },
+  "pages/organizers.qmd": {
+    "organizers.html": "2db52121"
+  },
+  "pages/sponsors.qmd": {
+    "sponsors.html": "d9c13cf0"
+  },
+  "pages/venue.qmd": {
+    "venue.html": "cd092c64"
+  },
+  "pages/keynotes.qmd": {
+    "keynotes.html": "3273077d"
+  },
+  "pages/registration.qmd": {
+    "registration.html": "b2cc0202"
+  },
+  "pages/code-of-conduct.qmd": {
+    "code-of-conduct.html": "5cef06fb"
+  },
+  "pages/submissions.qmd": {
+    "submissions.html": "6dfb3ade"
+  },
+  "pages/schedule.qmd": {
+    "schedule.html": "3c407eb9"
+  },
+  "pages/past-events.qmd": {
+    "past-events.html": "162c383b"
+  },
+  "pages/travel-information.qmd": {
+    "travel-information.html": "15e12163"
+  },
+  "pages/speakers.qmd": {
+    "speakers.html": "4c6eec26"
   }
 }

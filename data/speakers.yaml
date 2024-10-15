@@ -1,0 +1,12 @@
+a:
+  nom: Susan Holmes
+  pic: SusanHolmes.png
+  pos: Professor of Statistics, Stanford University, USA
+  txt: ...
+  web: https://susan.su.domains
+b:
+  nom: James Sharpe
+  pic: JamesSharpe.jpeg
+  pos: Group Leader \& Head of Outstation, EMBL Barcelona, Spain
+  txt: ...
+  web: https://www.embl.org/groups/sharpe
