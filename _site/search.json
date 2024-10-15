@@ -1,10 +1,66 @@
 [
   {
-    "objectID": "pages/schedule.html",
-    "href": "pages/schedule.html",
-    "title": "Schedule",
+    "objectID": "pages/venue.html",
+    "href": "pages/venue.html",
+    "title": "Venue",
     "section": "",
-    "text": "Schedule\nHere you will find the schedule."
+    "text": "Venue\nThe European Bioconductor Conference 2025 will take place at the Barcelona Biomedical Research Park (PRBB)."
+  },
+  {
+    "objectID": "pages/submissions.html",
+    "href": "pages/submissions.html",
+    "title": "Submissions",
+    "section": "",
+    "text": "TBD: Call for abstracts opens\nTBD: Call for abstracts closes\nTBD: Notification of decision \n\n\n\n\n\n\n\n10 min talk immediately followed by 5 min of questions, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.\n\n\n\n\n40 min demonstration of a software package or workflow.\n\n\n\nClassical poster printed on paper to be stuck to a wall, approximate size A0."
+  },
+  {
+    "objectID": "pages/submissions.html#call-for-abstracts",
+    "href": "pages/submissions.html#call-for-abstracts",
+    "title": "Submissions",
+    "section": "",
+    "text": "TBD: Call for abstracts opens\nTBD: Call for abstracts closes\nTBD: Notification of decision"
+  },
+  {
+    "objectID": "pages/submissions.html#submission-types",
+    "href": "pages/submissions.html#submission-types",
+    "title": "Submissions",
+    "section": "",
+    "text": "10 min talk immediately followed by 5 min of questions, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.\n\n\n\n\n40 min demonstration of a software package or workflow.\n\n\n\nClassical poster printed on paper to be stuck to a wall, approximate size A0."
+  },
+  {
+    "objectID": "pages/speakers.html",
+    "href": "pages/speakers.html",
+    "title": "Speakers",
+    "section": "",
+    "text": "Professor of Statistics, Stanford University, USA\n…\nhttps://susan.su.domains\n\n\n\n\n\n\n\n\n\n\nGroup Leader & Head of Outstation, EMBL Barcelona, Spain\n…\nhttps://www.embl.org/groups/sharpe"
+  },
+  {
+    "objectID": "pages/speakers.html#susan-holmes",
+    "href": "pages/speakers.html#susan-holmes",
+    "title": "Speakers",
+    "section": "",
+    "text": "Professor of Statistics, Stanford University, USA\n…\nhttps://susan.su.domains"
+  },
+  {
+    "objectID": "pages/speakers.html#james-sharpe",
+    "href": "pages/speakers.html#james-sharpe",
+    "title": "Speakers",
+    "section": "",
+    "text": "Group Leader & Head of Outstation, EMBL Barcelona, Spain\n…\nhttps://www.embl.org/groups/sharpe"
+  },
+  {
+    "objectID": "pages/registration.html",
+    "href": "pages/registration.html",
+    "title": "Registration",
+    "section": "",
+    "text": "Registration\nRegistration for EuroBioC2025 is not open yet. Stay tuned."
+  },
+  {
+    "objectID": "pages/organizers.html",
+    "href": "pages/organizers.html",
+    "title": "Organizers",
+    "section": "",
+    "text": "Organizers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\nDario Righelli\nDavide Risso\nFederico Marini\nHelena Crowell\n\n\n\n\n\n\n\n\n\nJames Dalgleish\nKevin Rue-Albrecht\nLaurent Gatto\nLena Morrill Gavarro\nLieven Clement\n\n\n\n\n\n\n\n\n\nRobert Castelo"
   },
   {
     "objectID": "pages/code-of-conduct.html",
@@ -42,46 +98,18 @@
     "text": "If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible. You can make a report either anonymously or personally. All reports will be reviewed by the Code of Conduct Committee and will be kept confidential.\n\n\nYou can make an anonymous or non-anonymous report via the following link: https://forms.gle/gEWHBWnXvZbEdFsq5. It is a free-form text box that will be forwarded to the Code of Conduct Committee. Alternatively you can email the Code of Conduct Committee (code-of-conduct@bioconductor.org). If you are uncomfortable reporting to the Code of Conduct committee as a group, you can contact any individual committee member via email or a direct message on the community-bioc Slack channel. Please include screenshots/copies of all relevant electronic conversations whenever possible (you don’t need to compromise your anonymity!).\nWe can’t follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.\n\n\n\nYou can make a personal report to any member of the event Code of Conduct committee present at an event.\nWhen taking a personal report, we will ensure you are safe and cannot be overheard. We may involve other event staff to ensure your report is managed properly. Once safe, we’ll ask you to tell us about what happened. This can be upsetting, but we’ll handle it as respectfully as possible, and you can bring someone to support you. You won’t be asked to confront anyone, and we won’t tell anyone who you are.\nOur team will be happy to help you get the relevant support (e.g. help contacting hotel/venue security, local law enforcement, local support services, provide escorts, or otherwise assist you to feel safe for the duration of the event).\nWe value your attendance and participation at Bioconductor events and in our community.\n\n\n\nWe understand that you may want a person unrelated to Bioconductor overseeing your conflict resolution. To facilitate this, the Code of Conduct Committee will appoint an ombudsperson from a different open source community than members of the Bioconductor project. While they do not have power to establish, change or set aside decisions made by the Code of Conduct Committee, they can assist community members by offering consultation, mediation, coaching and referrals to other resources. The ombudsperson can be contacted directly via email (see below) to ensure a confidential, impartial, informal and independent process.\n\n\n\nThe Code of Conduct Committee follows a standard procedure to deal with conflicts. This procedure is briefly summarized here. Incident procedures are based on the book “How to Respond to Code of Conduct Reports” by Valerie Aurora and Mary Gardiner.\n\n\n\n\nEmail: code-of-conduct@bioconductor.org\nAnonymous Code of Conduct violation reports: https://tinyurl.com/bioccomplaint\nLaw enforcement emergency number: 112 (EU) / 911 (US)"
   },
   {
-    "objectID": "pages/registration.html",
-    "href": "pages/registration.html",
-    "title": "Registration",
+    "objectID": "pages/past-events.html",
+    "href": "pages/past-events.html",
+    "title": "Past Events",
     "section": "",
-    "text": "Registration\nRegistration for EuroBioC2025 is not open yet. Stay tuned."
+    "text": "Past Events\n\nEuroBioC 2024\nBioC Asia 2024\nBioconductor 2024\nEuroBioC 2023\nBioC Asia 2023\nBioconductor 2023\nEuroBioC 2022\nBioC Asia 2022\nBioconductor 2022\nBioC Asia 2021\nBioconductor 2021\nEuroBioC 2020\nBioC Asia 2020\nBioconductor 2020\nBioconductor 2019\nBioconductor 2018\nBioconductor 2017\nBioconductor 2016\nBioconductor 2015\nBioconductor 2014\nBioconductor 2013\nBioconductor 2012\nBioconductor 2011\nBioconductor 2010\nBioconductor 2009\nBioconductor 2008\nBioconductor 2007\nBioconductor 2006\nBioconductor 2005"
   },
   {
-    "objectID": "pages/venue.html",
-    "href": "pages/venue.html",
-    "title": "Venue",
+    "objectID": "pages/schedule.html",
+    "href": "pages/schedule.html",
+    "title": "Schedule",
     "section": "",
-    "text": "Venue\nThe European Bioconductor Conference 2025 will take place at the Barcelona Biomedical Research Park (PRBB)."
-  },
-  {
-    "objectID": "pages/speakers.html",
-    "href": "pages/speakers.html",
-    "title": "Speakers",
-    "section": "",
-    "text": "Professor of Statistics, Stanford University, USA\n…\nhttps://susan.su.domains\n\n\n\n\n\n\n\n\n\n\nGroup Leader & Head of Outstation, EMBL Barcelona, Spain\n…\nhttps://www.embl.org/groups/sharpe"
-  },
-  {
-    "objectID": "pages/speakers.html#susan-holmes",
-    "href": "pages/speakers.html#susan-holmes",
-    "title": "Speakers",
-    "section": "",
-    "text": "Professor of Statistics, Stanford University, USA\n…\nhttps://susan.su.domains"
-  },
-  {
-    "objectID": "pages/speakers.html#james-sharpe",
-    "href": "pages/speakers.html#james-sharpe",
-    "title": "Speakers",
-    "section": "",
-    "text": "Group Leader & Head of Outstation, EMBL Barcelona, Spain\n…\nhttps://www.embl.org/groups/sharpe"
-  },
-  {
-    "objectID": "pages/organizers.html",
-    "href": "pages/organizers.html",
-    "title": "Organizers",
-    "section": "",
-    "text": "Organizers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\nDario Righelli\nDavide Risso\nFederico Marini\nHelena Crowell\n\n\n\n\n\n\n\n\n\nJames Dalgleish\nKevin Rue-Albrecht\nLaurent Gatto\nLena Morrill Gavarro\nLieven Clement\n\n\n\n\n\n\n\n\n\nRobert Castelo"
+    "text": "Schedule\nHere you will find the schedule."
   },
   {
     "objectID": "pages/sponsors.html",
@@ -96,33 +124,5 @@
     "title": "Travel Information",
     "section": "",
     "text": "Travel Information\nIf you are traveling internationally, we recommend flying into Barcelona El Prat Airport."
-  },
-  {
-    "objectID": "pages/past-events.html",
-    "href": "pages/past-events.html",
-    "title": "Past Events",
-    "section": "",
-    "text": "Past Events\n\nEuroBioC 2024\nBioC Asia 2024\nBioconductor 2024\nEuroBioC 2023\nBioC Asia 2023\nBioconductor 2023\nEuroBioC 2022\nBioC Asia 2022\nBioconductor 2022\nBioC Asia 2021\nBioconductor 2021\nEuroBioC 2020\nBioC Asia 2020\nBioconductor 2020\nBioconductor 2019\nBioconductor 2018\nBioconductor 2017\nBioconductor 2016\nBioconductor 2015\nBioconductor 2014\nBioconductor 2013\nBioconductor 2012\nBioconductor 2011\nBioconductor 2010\nBioconductor 2009\nBioconductor 2008\nBioconductor 2007\nBioconductor 2006\nBioconductor 2005"
-  },
-  {
-    "objectID": "pages/submissions.html",
-    "href": "pages/submissions.html",
-    "title": "Submissions",
-    "section": "",
-    "text": "TBD: Call for abstracts opens\nTBD: Call for abstracts closes\nTBD: Notification of decision \n\n\n\n\n\n\n\n10 min talk immediately followed by 5 min of questions, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.\n\n\n\n\n40 min demonstration of a software package or workflow.\n\n\n\nClassical poster printed on paper to be stuck to a wall, approximate size A0."
-  },
-  {
-    "objectID": "pages/submissions.html#call-for-abstracts",
-    "href": "pages/submissions.html#call-for-abstracts",
-    "title": "Submissions",
-    "section": "",
-    "text": "TBD: Call for abstracts opens\nTBD: Call for abstracts closes\nTBD: Notification of decision"
-  },
-  {
-    "objectID": "pages/submissions.html#submission-types",
-    "href": "pages/submissions.html#submission-types",
-    "title": "Submissions",
-    "section": "",
-    "text": "10 min talk immediately followed by 5 min of questions, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.\n\n\n\n\n40 min demonstration of a software package or workflow.\n\n\n\nClassical poster printed on paper to be stuck to a wall, approximate size A0."
   }
 ]
