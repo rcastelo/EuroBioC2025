@@ -1,17 +1,26 @@
 # Speakers
 
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
 ```{r results="asis", echo=FALSE}
 for (x in yaml::read_yaml("../data/speakers.yaml")) {
 cat(":::: {.columns}\n")
 cat("##", x$nom, "\n")
 # 1st column
-cat("::: {.column width=66%}\n")
+cat("::: {.column width=60%}\n")
 cat("**", x$pos, "**\n\n", sep="")
-cat(x$txt, "\n\n")
+cat("::: {.justify}\n")
+cat(x$txt, "\n:::\n")
 cat(sprintf("[%s]()", x$web), "\n")
 cat(":::\n")
+# horizontal spacing
+cat("::: {.column width=3%}\n:::\n")
 # 2nd column
-cat("::: {.column width=33%}\n")
+cat("::: {.column width=35%}\n")
 cat(sprintf("![](../images/speakers/%s)", x$pic), "\n")
 cat(":::\n")
 cat("::::\n")

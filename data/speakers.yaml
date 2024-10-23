@@ -1,21 +1,21 @@
 a:
-  nom: Maria Brbic
-  pic: MariaBrbic.jpg
-  pos: Tenure Track Assistant Professor, EPFL, Switzerland
-  txt: ...
-  web: https://people.epfl.ch/maria.brbic
-b:
-  nom: Helena Crowell
-  pic: HelenaCrowell.png
-  pos: Postdoctoral Fellow, CNAG, Barcelona, Spain
-  txt: ...
-  web: https://helenalc.github.io
-c:
   nom: Susan Holmes
   pic: SusanHolmes.png
   pos: Professor of Statistics, Stanford University, USA
   txt: ...
   web: https://susan.su.domains
+b:
+  nom: James Sharpe
+  pic: JamesSharpe.jpeg
+  pos: Group Leader \& Head of Outstation, EMBL Barcelona, Spain
+  txt: ...
+  web: https://www.embl.org/groups/sharpe
+c:
+  nom: Maria Brbic
+  pic: MariaBrbic.jpg
+  pos: Tenure Track Assistant Professor, EPFL, Switzerland
+  txt: ...
+  web: https://people.epfl.ch/maria.brbic
 d:
   nom: Jacques Serizay
   pic: JacquesSerizay.png
@@ -23,8 +23,16 @@ d:
   txt: ...
   web: https://jserizay.com
 e:
-  nom: James Sharpe
-  pic: JamesSharpe.jpeg
-  pos: Group Leader \& Head of Outstation, EMBL Barcelona, Spain
-  txt: ...
-  web: https://www.embl.org/groups/sharpe
+  nom: Helena Crowell
+  pic: HelenaCrowell.png
+  pos: Postdoctoral Fellow, CNAG, Barcelona, Spain
+  txt: "Helena Crowell obtained her Ph.D. in Epidemiology & Biostatistics 
+  with Mark Robinson at the University of Zurich in Switzerland, where she 
+  developed and benchmarked methods for single-cell and spatial omics data, 
+  and authored various R/Bioconductor packages (*CATALYST*, *muscat*, and 
+  *SpatialExperiment*). As a postdoc with Holger Heyn, she is collaborating 
+  with clinicians and biotech companies to analyze spatial transcriptomics 
+  data in an immuno-oncology context, e.g., chronic lymphocytic leukemia and 
+  colorectal cancer. Aside from her research, she is a Bioconductor package 
+  reviewer and member of the project's technical advisory board."
+  web: https://helenalc.github.io
