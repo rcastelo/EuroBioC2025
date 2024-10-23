@@ -2,13 +2,23 @@ a:
   nom: Susan Holmes
   pic: SusanHolmes.png
   pos: Professor of Statistics, Stanford University, USA
-  txt: ...
+  txt: "Brought up in the French School of Data Analysis (Analyse des Données) in the 1980’s, Susan Holmes is a Data Scientist specialized in exploring and visualizing complex biological data. She is interested in integrating the information provided by phylogenetic trees, community interaction graphs and metabolic networks with sequencing data and clinical covariates. She uses computational statistics, in particular, nonparametric computer intensive methods such as the bootstrap and MCMC to draw inferences about many complex biological phenomena, interactions between the immune system and cancer, resilience and biomarker detection in the human microbiome and drug resistance in HIV. Her research group has developed open-source software implementing these methods, such as phyloseq and DADA2, which are freely available at the Bioconductor project for more than 10 years, and have become very popular among scientists analysing microbiome data. Susan enjoys teaching using R and BioConductor and tries to make everything she does freely available."
   web: https://susan.su.domains
 b:
   nom: James Sharpe
   pic: JamesSharpe.jpeg
   pos: Group Leader \& Head of Outstation, EMBL Barcelona, Spain
-  txt: ...
+  txt: "James Sharpe is currently head of EMBL Barcelona and principal
+investigator of the group on Multicellular Systems Biology. The goal of
+his group is to understand how the activities of gene networks controls
+the millions of cells which make up our organs – allowing them to
+communicate with each other, to decide what to do at each moment during
+embryo development: whether to divide, which way to move, and which
+cells types to become (cartilage, bone, connective tissue, etc.). Their
+approach is to integrate information into a computer model, and to this
+end Sharpes's research group develops new imaging and computational
+methods to understand one example of organogenesis – vertebrate limb
+development."
   web: https://www.embl.org/groups/sharpe
 c:
   nom: Maria Brbic
