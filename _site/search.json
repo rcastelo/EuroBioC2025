@@ -1,73 +1,59 @@
 [
   {
-    "objectID": "pages/venue.html",
-    "href": "pages/venue.html",
-    "title": "Venue",
-    "section": "",
-    "text": "Venue\nThe European Bioconductor Conference 2025 will take place at the Barcelona Biomedical Research Park (PRBB)."
-  },
-  {
-    "objectID": "pages/submissions.html",
-    "href": "pages/submissions.html",
-    "title": "Submissions",
-    "section": "",
-    "text": "TBD: Call for abstracts opens\nTBD: Call for abstracts closes\nTBD: Notification of decision \n\n\n\n\n\n\n\n10 min talk immediately followed by 5 min of questions, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.\n\n\n\n\n40 min demonstration of a software package or workflow.\n\n\n\nClassical poster printed on paper to be stuck to a wall, approximate size A0."
-  },
-  {
-    "objectID": "pages/submissions.html#call-for-abstracts",
-    "href": "pages/submissions.html#call-for-abstracts",
-    "title": "Submissions",
-    "section": "",
-    "text": "TBD: Call for abstracts opens\nTBD: Call for abstracts closes\nTBD: Notification of decision"
-  },
-  {
-    "objectID": "pages/submissions.html#submission-types",
-    "href": "pages/submissions.html#submission-types",
-    "title": "Submissions",
-    "section": "",
-    "text": "10 min talk immediately followed by 5 min of questions, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.\n\n\n\n\n40 min demonstration of a software package or workflow.\n\n\n\nClassical poster printed on paper to be stuck to a wall, approximate size A0."
-  },
-  {
     "objectID": "pages/speakers.html",
     "href": "pages/speakers.html",
     "title": "Speakers",
     "section": "",
-    "text": "Tenure Track Assistant Professor, EPFL, Switzerland\n…\nhttps://people.epfl.ch/maria.brbic\n\n\n\n\n\n\n\n\n\n\nPostdoctoral Fellow, CNAG, Barcelona, Spain\n…\nhttps://helenalc.github.io\n\n\n\n\n\n\n\n\n\n\nProfessor of Statistics, Stanford University, USA\n…\nhttps://susan.su.domains\n\n\n\n\n\n\n\n\n\n\nPostdoctoral Fellow, Institut Pasteur, Paris, France\n…\nhttps://jserizay.com\n\n\n\n\n\n\n\n\n\n\nGroup Leader & Head of Outstation, EMBL Barcelona, Spain\n…\nhttps://www.embl.org/groups/sharpe"
-  },
-  {
-    "objectID": "pages/speakers.html#maria-brbic",
-    "href": "pages/speakers.html#maria-brbic",
-    "title": "Speakers",
-    "section": "",
-    "text": "Tenure Track Assistant Professor, EPFL, Switzerland\n…\nhttps://people.epfl.ch/maria.brbic"
-  },
-  {
-    "objectID": "pages/speakers.html#helena-crowell",
-    "href": "pages/speakers.html#helena-crowell",
-    "title": "Speakers",
-    "section": "",
-    "text": "Postdoctoral Fellow, CNAG, Barcelona, Spain\n…\nhttps://helenalc.github.io"
+    "text": "Professor of Statistics, Stanford University, USA\n\nBrought up in the French School of Data Analysis (Analyse des Données) in the 1980’s, Susan Holmes is a Data Scientist specialized in exploring and visualizing complex biological data. She is interested in integrating the information provided by phylogenetic trees, community interaction graphs and metabolic networks with sequencing data and clinical covariates. She uses computational statistics, in particular, nonparametric computer intensive methods such as the bootstrap and MCMC to draw inferences about many complex biological phenomena, interactions between the immune system and cancer, resilience and biomarker detection in the human microbiome and drug resistance in HIV. Her research group has developed open-source software implementing these methods, such as phyloseq and DADA2, which are freely available at the Bioconductor project for more than 10 years, and have become very popular among scientists analysing microbiome data. Susan enjoys teaching using R and BioConductor and tries to make everything she does freely available.\n\nhttps://susan.su.domains\n\n\n\n\n\n\n\n\n\n\n\n\n\nGroup Leader & Head of Outstation, EMBL Barcelona, Spain\n\nJames Sharpe is currently head of EMBL Barcelona and principal investigator of the group on Multicellular Systems Biology. The goal of his group is to understand how the activities of gene networks controls the millions of cells which make up our organs – allowing them to communicate with each other, to decide what to do at each moment during embryo development: whether to divide, which way to move, and which cells types to become (cartilage, bone, connective tissue, etc.). Their approach is to integrate information into a computer model, and to this end Sharpes’s research group develops new imaging and computational methods to understand one example of organogenesis – vertebrate limb development.\n\nhttps://www.embl.org/groups/sharpe\n\n\n\n\n\n\n\n\n\n\n\n\n\nTenure Track Assistant Professor, EPFL, Switzerland\n\n…\n\nhttps://people.epfl.ch/maria.brbic\n\n\n\n\n\n\n\n\n\n\n\n\n\nPostdoctoral Fellow, Institut Pasteur, Paris, France\n\n…\n\nhttps://jserizay.com\n\n\n\n\n\n\n\n\n\n\n\n\n\nPostdoctoral Fellow, CNAG, Barcelona, Spain\n\nHelena Crowell obtained her Ph.D. in Epidemiology & Biostatistics with Mark Robinson at the University of Zurich in Switzerland, where she developed and benchmarked methods for single-cell and spatial omics data, and authored various R/Bioconductor packages (CATALYST, muscat, and SpatialExperiment). As a postdoc with Holger Heyn, she is collaborating with clinicians and biotech companies to analyze spatial transcriptomics data in an immuno-oncology context, e.g., chronic lymphocytic leukemia and colorectal cancer. Aside from her research, she is a Bioconductor package reviewer and member of the project’s technical advisory board.\n\nhttps://helenalc.github.io"
   },
   {
     "objectID": "pages/speakers.html#susan-holmes",
     "href": "pages/speakers.html#susan-holmes",
     "title": "Speakers",
     "section": "",
-    "text": "Professor of Statistics, Stanford University, USA\n…\nhttps://susan.su.domains"
-  },
-  {
-    "objectID": "pages/speakers.html#jacques-serizay",
-    "href": "pages/speakers.html#jacques-serizay",
-    "title": "Speakers",
-    "section": "",
-    "text": "Postdoctoral Fellow, Institut Pasteur, Paris, France\n…\nhttps://jserizay.com"
+    "text": "Professor of Statistics, Stanford University, USA\n\nBrought up in the French School of Data Analysis (Analyse des Données) in the 1980’s, Susan Holmes is a Data Scientist specialized in exploring and visualizing complex biological data. She is interested in integrating the information provided by phylogenetic trees, community interaction graphs and metabolic networks with sequencing data and clinical covariates. She uses computational statistics, in particular, nonparametric computer intensive methods such as the bootstrap and MCMC to draw inferences about many complex biological phenomena, interactions between the immune system and cancer, resilience and biomarker detection in the human microbiome and drug resistance in HIV. Her research group has developed open-source software implementing these methods, such as phyloseq and DADA2, which are freely available at the Bioconductor project for more than 10 years, and have become very popular among scientists analysing microbiome data. Susan enjoys teaching using R and BioConductor and tries to make everything she does freely available.\n\nhttps://susan.su.domains"
   },
   {
     "objectID": "pages/speakers.html#james-sharpe",
     "href": "pages/speakers.html#james-sharpe",
     "title": "Speakers",
     "section": "",
-    "text": "Group Leader & Head of Outstation, EMBL Barcelona, Spain\n…\nhttps://www.embl.org/groups/sharpe"
+    "text": "Group Leader & Head of Outstation, EMBL Barcelona, Spain\n\nJames Sharpe is currently head of EMBL Barcelona and principal investigator of the group on Multicellular Systems Biology. The goal of his group is to understand how the activities of gene networks controls the millions of cells which make up our organs – allowing them to communicate with each other, to decide what to do at each moment during embryo development: whether to divide, which way to move, and which cells types to become (cartilage, bone, connective tissue, etc.). Their approach is to integrate information into a computer model, and to this end Sharpes’s research group develops new imaging and computational methods to understand one example of organogenesis – vertebrate limb development.\n\nhttps://www.embl.org/groups/sharpe"
+  },
+  {
+    "objectID": "pages/speakers.html#maria-brbic",
+    "href": "pages/speakers.html#maria-brbic",
+    "title": "Speakers",
+    "section": "",
+    "text": "Tenure Track Assistant Professor, EPFL, Switzerland\n\n…\n\nhttps://people.epfl.ch/maria.brbic"
+  },
+  {
+    "objectID": "pages/speakers.html#jacques-serizay",
+    "href": "pages/speakers.html#jacques-serizay",
+    "title": "Speakers",
+    "section": "",
+    "text": "Postdoctoral Fellow, Institut Pasteur, Paris, France\n\n…\n\nhttps://jserizay.com"
+  },
+  {
+    "objectID": "pages/speakers.html#helena-crowell",
+    "href": "pages/speakers.html#helena-crowell",
+    "title": "Speakers",
+    "section": "",
+    "text": "Postdoctoral Fellow, CNAG, Barcelona, Spain\n\nHelena Crowell obtained her Ph.D. in Epidemiology & Biostatistics with Mark Robinson at the University of Zurich in Switzerland, where she developed and benchmarked methods for single-cell and spatial omics data, and authored various R/Bioconductor packages (CATALYST, muscat, and SpatialExperiment). As a postdoc with Holger Heyn, she is collaborating with clinicians and biotech companies to analyze spatial transcriptomics data in an immuno-oncology context, e.g., chronic lymphocytic leukemia and colorectal cancer. Aside from her research, she is a Bioconductor package reviewer and member of the project’s technical advisory board.\n\nhttps://helenalc.github.io"
+  },
+  {
+    "objectID": "pages/travel-information.html",
+    "href": "pages/travel-information.html",
+    "title": "Travel Information",
+    "section": "",
+    "text": "Travel Information\nIf you are traveling internationally, we recommend flying into Barcelona El Prat Airport."
+  },
+  {
+    "objectID": "pages/sponsors.html",
+    "href": "pages/sponsors.html",
+    "title": "Sponsors",
+    "section": "",
+    "text": "Sponsors\nHere you will find the list of our sponsors."
   },
   {
     "objectID": "pages/registration.html",
@@ -133,17 +119,31 @@
     "text": "Schedule\nHere you will find the schedule."
   },
   {
-    "objectID": "pages/sponsors.html",
-    "href": "pages/sponsors.html",
-    "title": "Sponsors",
+    "objectID": "pages/submissions.html",
+    "href": "pages/submissions.html",
+    "title": "Submissions",
     "section": "",
-    "text": "Sponsors\nHere you will find the list of our sponsors."
+    "text": "TBD: Call for abstracts opens\nTBD: Call for abstracts closes\nTBD: Notification of decision \n\n\n\n\n\n\n\n10 min talk immediately followed by 5 min of questions, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.\n\n\n\n\n40 min demonstration of a software package or workflow.\n\n\n\nClassical poster printed on paper to be stuck to a wall, approximate size A0."
   },
   {
-    "objectID": "pages/travel-information.html",
-    "href": "pages/travel-information.html",
-    "title": "Travel Information",
+    "objectID": "pages/submissions.html#call-for-abstracts",
+    "href": "pages/submissions.html#call-for-abstracts",
+    "title": "Submissions",
     "section": "",
-    "text": "Travel Information\nIf you are traveling internationally, we recommend flying into Barcelona El Prat Airport."
+    "text": "TBD: Call for abstracts opens\nTBD: Call for abstracts closes\nTBD: Notification of decision"
+  },
+  {
+    "objectID": "pages/submissions.html#submission-types",
+    "href": "pages/submissions.html#submission-types",
+    "title": "Submissions",
+    "section": "",
+    "text": "10 min talk immediately followed by 5 min of questions, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.\n\n\n\n\n40 min demonstration of a software package or workflow.\n\n\n\nClassical poster printed on paper to be stuck to a wall, approximate size A0."
+  },
+  {
+    "objectID": "pages/venue.html",
+    "href": "pages/venue.html",
+    "title": "Venue",
+    "section": "",
+    "text": "Venue\nThe European Bioconductor Conference 2025 will take place at the Barcelona Biomedical Research Park (PRBB)."
   }
 ]
