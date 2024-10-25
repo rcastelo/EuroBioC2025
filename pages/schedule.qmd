@@ -1,3 +1,27 @@
 # Schedule
 
-Here you will find the schedule.
+```{r echo=FALSE}
+url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vSkRZqVLjOAamGk82cTXmUNTj2WLCmPK_r1qLGn8ixgNmOlgff6VbSe0IgR_2qjc_CNSaBdhFPLrfyX/pub?gid=731106475&single=true&output=csv"
+df <- read.csv(url)
+library(kableExtra)
+```
+
+```{r results="asis", echo=FALSE}
+# section headers
+ds <- c(
+    "Wed. - Oct. 17, '25",
+    "Thu. - Oct. 18, '25",
+    "Fri. - Oct. 19, '25")
+is <- split(seq(nrow(df)), df$day)
+# column widths
+ws <- paste0(100/(ncol(df)-1), "%")
+kbl(df[, -1], row.names=FALSE) |>
+    kable_material(full_width=TRUE) |>
+    column_spec(seq(ncol(df)-1), width=ws) |>
+    row_spec(which(df$type == "Keynote"), background="lavender") |>
+    row_spec(which(df$type == "Break"), background="lightyellow") |>
+    pack_rows(ds[1], min(is[[1]]), max(is[[1]])) |>
+    pack_rows(ds[2], min(is[[2]]), max(is[[2]])) |>
+    pack_rows(ds[3], min(is[[3]]), max(is[[3]])) |>
+    cat()
+```

@@ -4,7 +4,7 @@
     "href": "pages/schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule\nHere you will find the schedule."
+    "text": "Schedule\n\n\n\n\ntime\n\n\ntype\n\n\nauthor\n\n\ntitle\n\n\ninfo\n\n\n\n\n\n\nWed. - Oct. 17, ’25\n\n\n\n\n9:00\n\n\nOpening\n\n\nOrganizing committee\n\n\nWelcome to EuroBioC\n\n\nNA\n\n\n\n\n9:15\n\n\nIntro\n\n\nVince Carey\n\n\nThe Bioconductor project\n\n\nNA\n\n\n\n\n9:45\n\n\nKeynote\n\n\n???\n\n\nTBD\n\n\nNA\n\n\n\n\n10:15\n\n\nBreak\n\n\n\n\n\n\nNA\n\n\n\n\n11:00\n\n\nShort talks\n\n\n\n\n\n\nNA\n\n\n\n\n12:45\n\n\nLunch\n\n\n\n\n\n\nNA\n\n\n\n\n14:00\n\n\nKeynote\n\n\n???\n\n\n\n\nNA\n\n\n\n\n14:30\n\n\nWorkshops\n\n\n\n\n\n\nNA\n\n\n\n\n16:30\n\n\nPoster session\n\n\n\n\n\n\nNA\n\n\n\n\nThu. - Oct. 18, ’25\n\n\n\n\n9:00\n\n\nKeynote\n\n\n???\n\n\n\n\nNA\n\n\n\n\n9:30\n\n\nShort talks\n\n\n\n\n\n\nNA\n\n\n\n\n10:30\n\n\nBreak\n\n\n\n\n\n\nNA\n\n\n\n\n11:15\n\n\nShort talks\n\n\n\n\n\n\nNA\n\n\n\n\n12:45\n\n\nLunch\n\n\n\n\n\n\nNA\n\n\n\n\n14:00\n\n\nKeynote\n\n\n???\n\n\n\n\nNA\n\n\n\n\n14:30\n\n\nWorkshops\n\n\n\n\n\n\nNA\n\n\n\n\n16:30\n\n\nPoster session\n\n\n\n\n\n\nNA\n\n\n\n\nFri. - Oct. 19, ’25\n\n\n\n\n9:00\n\n\nKeynote\n\n\n???\n\n\n\n\nNA\n\n\n\n\n9:30\n\n\nShort talks\n\n\n\n\n\n\nNA\n\n\n\n\n10:30\n\n\nBreak\n\n\n\n\n\n\nNA\n\n\n\n\n11:15\n\n\nBoF sessions\n\n\n\n\n\n\nNA\n\n\n\n\n12:30\n\n\nAwards & Closing\n\n\n\n\n\n\nNA"
   },
   {
     "objectID": "pages/code-of-conduct.html",
@@ -145,5 +145,26 @@
     "title": "Submissions",
     "section": "",
     "text": "10 min talk immediately followed by 5 min of questions, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.\n\n\n\n\n40 min demonstration of a software package or workflow.\n\n\n\nClassical poster printed on paper to be stuck to a wall, approximate size A0."
+  },
+  {
+    "objectID": "pages/schedule.html#wed.---oct.-17-25",
+    "href": "pages/schedule.html#wed.---oct.-17-25",
+    "title": "Schedule",
+    "section": "",
+    "text": "time\n\n\ntype\n\n\nauthor\n\n\ntitle\n\n\ninfo\n\n\n\n\n\n\n9:00\n\n\nOpening\n\n\nOrganizing committee\n\n\nWelcome to EuroBioC\n\n\nNA\n\n\n\n\n9:15\n\n\nIntro\n\n\nVince Carey\n\n\nThe Bioconductor project\n\n\nNA\n\n\n\n\n9:45\n\n\nKeynote\n\n\n???\n\n\nTBD\n\n\nNA\n\n\n\n\n10:15\n\n\nBreak\n\n\n\n\n\n\nNA\n\n\n\n\n11:00\n\n\nShort talks\n\n\n\n\n\n\nNA\n\n\n\n\n12:45\n\n\nLunch\n\n\n\n\n\n\nNA\n\n\n\n\n14:00\n\n\nKeynote\n\n\n???\n\n\n\n\nNA\n\n\n\n\n14:30\n\n\nWorkshops\n\n\n\n\n\n\nNA\n\n\n\n\n16:30\n\n\nPoster session\n\n\n\n\n\n\nNA"
+  },
+  {
+    "objectID": "pages/schedule.html#thu.---oct.-18-25",
+    "href": "pages/schedule.html#thu.---oct.-18-25",
+    "title": "Schedule",
+    "section": "",
+    "text": "time\n\n\ntype\n\n\nauthor\n\n\ntitle\n\n\ninfo\n\n\n\n\n\n\n9:00\n\n\nKeynote\n\n\n???\n\n\n\n\nNA\n\n\n\n\n9:30\n\n\nShort talks\n\n\n\n\n\n\nNA\n\n\n\n\n10:30\n\n\nBreak\n\n\n\n\n\n\nNA\n\n\n\n\n11:15\n\n\nShort talks\n\n\n\n\n\n\nNA\n\n\n\n\n12:45\n\n\nLunch\n\n\n\n\n\n\nNA\n\n\n\n\n14:00\n\n\nKeynote\n\n\n???\n\n\n\n\nNA\n\n\n\n\n14:30\n\n\nWorkshops\n\n\n\n\n\n\nNA\n\n\n\n\n16:30\n\n\nPoster session\n\n\n\n\n\n\nNA"
+  },
+  {
+    "objectID": "pages/schedule.html#fri.---oct.-19-25",
+    "href": "pages/schedule.html#fri.---oct.-19-25",
+    "title": "Schedule",
+    "section": "",
+    "text": "time\n\n\ntype\n\n\nauthor\n\n\ntitle\n\n\ninfo\n\n\n\n\n\n\n9:00\n\n\nKeynote\n\n\n???\n\n\n\n\nNA\n\n\n\n\n9:30\n\n\nShort talks\n\n\n\n\n\n\nNA\n\n\n\n\n10:30\n\n\nBreak\n\n\n\n\n\n\nNA\n\n\n\n\n11:15\n\n\nBoF sessions\n\n\n\n\n\n\nNA\n\n\n\n\n12:30\n\n\nAwards & Closing\n\n\n\n\n\n\nNA"
   }
 ]
