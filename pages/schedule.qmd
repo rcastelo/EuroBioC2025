@@ -19,7 +19,7 @@ kbl(df[, -1], row.names=FALSE) |>
     kable_material(full_width=TRUE) |>
     column_spec(seq(ncol(df)-1), width=ws) |>
     row_spec(which(df$type == "Keynote"), background="lavender") |>
-    row_spec(which(df$type == "Break"), background="lightyellow") |>
+    row_spec(which(df$type %in% c("Break", "Lunch")), background="lightyellow") |>
     pack_rows(ds[1], min(is[[1]]), max(is[[1]])) |>
     pack_rows(ds[2], min(is[[2]]), max(is[[2]])) |>
     pack_rows(ds[3], min(is[[3]]), max(is[[3]])) |>
