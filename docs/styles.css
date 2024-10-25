@@ -10,13 +10,11 @@ b,strong {
 }
 
 .navbar{
-  height: 80px;
   text-color: white;
   background-image: linear-gradient(to right,white,#0087af,#18a603);
 }
 
 .navbar-logo {
-  max-height: 80px;
   width: auto;
   align-items: baseline;
 }
