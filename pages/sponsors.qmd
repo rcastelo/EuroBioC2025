@@ -1,3 +1,17 @@
 # Sponsors
 
-Here you will find the list of our sponsors.
+```{r echo=FALSE}
+url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vTH6w9C1hF_umKXxAWtjXj5W-Jjz511mOgKXpgYfl-v_kqLzFKOoH9oJ5kvbYMCIQt8p_iIjntUU7VR/pub?gid=106633706&single=true&output=csv"
+df <- read.csv(url, check.names=FALSE)
+library(kableExtra)
+```
+
+```{r results="asis", echo=FALSE}
+kbl(df, row.names=FALSE, align=c("r", rep("c", ncol(df)-1))) |>
+    kable_material() |>
+    column_spec(1, width="66%") |>
+    row_spec(seq(1, nrow(df), 2), 
+        background="ghostwhite") |>
+    cat()
+```
+
