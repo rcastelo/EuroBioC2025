@@ -1,5 +1,25 @@
 # Sponsors
 
+## Sponsor Opportunities
+
+Bioconductor is a non-profit organization that supports one of the most widely used data analysis tools in genomics. Bioconductor had [1,069,044 downloads (distinct IPs)](http://www.bioconductor.org/packages/stats/bioc/index.html) in 2022. Software packages are contributed by more than 1,200 community developers worldwide, totaling over half a million downloads per year.  
+
+The conference is unique in that in addition to talks and poster session, the meeting features workshops which provide hands-on learning in Bioconductor. All conference materials (videos, slides, talks, posters, workshops) are published online such that the conference provides a rich resource for learning Bioconductor. 
+
+### Interested in sponsoring EuroBioC2025?
+
+Please contact <eurobioc@bioconductor.org>
+
+**Your sponsorship will help increase diversity and representation at the European Bioconductor Conference 2025** by:
+
+- Reducing registration costs for academic participants, trainees and especially students from countries outside CA, EEA, UK or US.
+- Funding travel scholarships for students, trainees and postdoctoral fellows from countries outside CA, EEA, UK or US.
+- Offering student diversity scholarships to increase participation of students and trainees with migration background. 
+- Providing caregiver awards to assist with childcare or eldercare costs.
+- Provide high quality live streaming of the talks and post-production and sharing of videos and conference materials.
+
+**Four levels of sponsorship are available.** Sponsors of all levels may give a short talk and/or present a poster highlighting the scientific interests of their organization in the poster session; for this, sponsors are kindly requested to submit an abstract within the deadline.
+
 ```{r echo=FALSE}
 url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vTH6w9C1hF_umKXxAWtjXj5W-Jjz511mOgKXpgYfl-v_kqLzFKOoH9oJ5kvbYMCIQt8p_iIjntUU7VR/pub?gid=106633706&single=true&output=csv"
 df <- read.csv(url, check.names=FALSE)
