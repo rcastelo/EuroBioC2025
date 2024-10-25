@@ -2,9 +2,9 @@
 
 ## Sponsor Opportunities
 
-Bioconductor is a non-profit organization that supports one of the most widely used data analysis tools in genomics. Bioconductor had [1,069,044 downloads (distinct IPs)](http://www.bioconductor.org/packages/stats/bioc/index.html) in 2022. Software packages are contributed by more than 1,200 community developers worldwide, totaling over half a million downloads per year.  
+Bioconductor is a non-profit organization that supports one of the most widely used data analysis tools in genomics. Bioconductor packages were downloaded by [about a million distinct IPs](https://www.bioconductor.org/packages/stats/bioc/index.html) in 2023. Software packages are contributed by more than 1,200 community developers worldwide.
 
-The conference is unique in that in addition to talks and poster session, the meeting features workshops which provide hands-on learning in Bioconductor. All conference materials (videos, slides, talks, posters, workshops) are published online such that the conference provides a rich resource for learning Bioconductor. 
+The annual European conference will bring together Bioconductor developers and users from academia, industry, and government to network and discuss the latest developments and emerging technologies that drive computational biology. The conference is unique in that in addition to talks and poster session, the meeting features workshops that provide hands-on learning about Bioconductor packages. All conference materials (videos, slides, talks, posters, workshops) are published online such that the conference provides a rich resource for learning Bioconductor. 
 
 ### Interested in sponsoring EuroBioC2025?
 
@@ -12,11 +12,11 @@ Please contact <eurobioc@bioconductor.org>
 
 **Your sponsorship will help increase diversity and representation at the European Bioconductor Conference 2025** by:
 
-- Reducing registration costs for academic participants, trainees and especially students from countries outside CA, EEA, UK or US.
-- Funding travel scholarships for students, trainees and postdoctoral fellows from countries outside CA, EEA, UK or US.
-- Offering student diversity scholarships to increase participation of students and trainees with migration background. 
+
+- Keeping registration costs affordable for academic participants and trainees.
+- Provide high quality hybrid/virtual streaming and post-production and sharing of videos and conference materials.
 - Providing caregiver awards to assist with childcare or eldercare costs.
-- Provide high quality live streaming of the talks and post-production and sharing of videos and conference materials.
+- Offering student diversity scholarships to increase participation of underrepresented minorities. 
 
 **Four levels of sponsorship are available.** Sponsors of all levels may give a short talk and/or present a poster highlighting the scientific interests of their organization in the poster session; for this, sponsors are kindly requested to submit an abstract within the deadline.
 
