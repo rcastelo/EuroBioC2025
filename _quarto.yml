@@ -15,7 +15,6 @@ website:
       - href: pages/speakers.qmd
       - href: pages/submissions.qmd
       - href: pages/registration.qmd
-      - href: pages/venue.qmd
       - href: pages/sponsors.qmd
       - text: About
         menu:

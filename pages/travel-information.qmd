@@ -1,3 +1,10 @@
 # Travel Information
 
 If you are traveling internationally, we recommend flying into [Barcelona El Prat Airport](https://www.aeropuertobarcelona-elprat.com).
+
+## Venue
+
+The European Bioconductor Conference 2025 will take place at the
+Barcelona Biomedical Research Park ([PRBB](https://prbb.org)).
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.487774368555!2d2.191516712115436!3d41.38521227118053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a306002af6a7%3A0x19d613601960f62c!2sBarcelona%20Biomedical%20Research%20Park%2C%20Ciutat%20Vella%2C%2008003%20Barcelona!5e0!3m2!1ses!2ses!4v1727871631223!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
