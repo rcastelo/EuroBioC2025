@@ -36,7 +36,7 @@ c:
   nom: Maria Brbic
   pic: MariaBrbic.jpg
   pos: Tenure Track Assistant Professor, EPFL, Switzerland
-  txt: "Maria Brbic (https://brbiclab.epfl.ch/) is is an Assistant Professor of Computer 
+  txt: "Maria Brbic (<https://brbiclab.epfl.ch>) is is an Assistant Professor of Computer 
   Science and Life Sciences at EPFL. She is also affiliated with the EPFL AI Center and 
   EPFL Institute of Bioengineering (IBI). Prior to joining EPFL, Maria was a postdoctoral 
   researcher in Computer Science at Stanford University working with Jure Leskovec and was 
@@ -75,13 +75,16 @@ e:
   nom: Helena Crowell
   pic: HelenaCrowell.png
   pos: Postdoctoral Fellow, CNAG, Barcelona, Spain
-  txt: "Helena Crowell obtained her Ph.D. in Epidemiology & Biostatistics 
-  with Mark Robinson at the University of Zurich in Switzerland, where she 
-  developed and benchmarked methods for single-cell and spatial omics data, 
-  and authored various R/Bioconductor packages (*CATALYST*, *muscat*, and 
-  *SpatialExperiment*). As a postdoc with Holger Heyn, she is collaborating 
-  with clinicians and biotech companies to analyze spatial transcriptomics 
-  data in an immuno-oncology context, e.g., chronic lymphocytic leukemia and 
-  colorectal cancer. Aside from her research, she is a Bioconductor package 
-  reviewer and member of the project's technical advisory board."
+  txt: "Helena Crowell obtained her Ph.D. in Epidemiology & Biostatistics with 
+  Mark Robinson at the University of Zurich, Switzerland, where she developed 
+  and benchmarked methods for single-cell and spatial omics data, authored 
+  various R/Bioconductor packages (*CATALYST*, *muscat*, and *SpatialExperiment*),
+  and was awarded with distinction by the university’s Faculty of Science.
+  Late in her Ph.D., she received a Swiss National Science Foundation (SNSF) 
+  fellowship to visit Holger Heyn in Barcelona, Spain, where she is now a SNSF 
+  funded postdoc, collaborating with clinicians and biotech companies to analyze 
+  spatial transcriptomics data in an immuno-oncology context, e.g., chronic 
+  lymphocytic leukemia and colorectal cancer. Aside from her research, Helena 
+  received an inaugural Bioconductor Community Award, is a Bioconductor package 
+  reviewer, and current member of the project's technical advisory board."
   web: https://helenalc.github.io
