@@ -25,9 +25,9 @@ library(kableExtra)
 ```{r results="asis", echo=FALSE}
 kbl(df, row.names=FALSE, align=c("r", rep("c", ncol(df)-1))) |>
     kable_material() |>
-    column_spec(1, width="66%") |>
-    row_spec(seq(1, nrow(df), 2), 
-        background="ghostwhite") |>
+    column_spec(1, width="65%") |>
+    column_spec(2:5, width="10%") |>
+    row_spec(seq(1, nrow(df), 2), background="ghostwhite") |>
     cat()
 ```
 
