@@ -1,31 +1,24 @@
 # Sponsors
 
-## Sponsor Opportunities
+[Bioconductor](https://bioconductor.org) is a non-profit organisation that supports one of the most widely used data analysis ecosystems in genomics.
+Software packages are contributed by more than 1,200 community developers worldwide, totaling over 42 million downloads by [about 1 million distinct IP addresses](https://www.bioconductor.org/packages/stats/bioc/index.html) in 2023. 
 
-Bioconductor is a non-profit organization that supports one of the most widely used data analysis tools in genomics. Bioconductor packages were downloaded by [about a million distinct IPs](https://www.bioconductor.org/packages/stats/bioc/index.html) in 2023. Software packages are contributed by more than 1,200 community developers worldwide.
+The next edition of the European Bioconductor Conference (EuroBioC) will be held in Barcelona, Spain, at the [Barcelona Biomedical Research Park](https://prbb.org) on 17-19 September 2025.
+We expect around 200 participants from the European and global bioinformatics community, coming from academia and industry.
+We are welcoming bioinformaticians, method developers, practitioners incorporating R/Bioconductor into robust workflows, and researchers using these tools for biological and biomedical discovery. 
 
-The annual European conference will bring together Bioconductor developers and users from academia, industry, and government to network and discuss the latest developments and emerging technologies that drive computational biology. The conference is unique in that in addition to talks and poster session, the meeting features workshops that provide hands-on learning about Bioconductor packages. All conference materials (videos, slides, talks, posters, workshops) are published online such that the conference provides a rich resource for learning Bioconductor. 
+**Your sponsorship will help us provide a high-quality in-person event, and increase equity, diversity and inclusion at EuroBioC2025** by reducing registration costs and funding scholarships for students and other academic participants from lower income countries or with no other means of funding.
 
-### Interested in sponsoring EuroBioC2025?
+**Four levels of sponsorship are available.** 
+Sponsors of all levels are invited to submit an abstract within the deadline, which will be subject to review alongside submissions by attendees.
+Selected abstracts will be given the opportunity to give a short talk or present a poster that may highlight the scientific interests of the organisation, research applications of their product(s), etc.
 
-Please contact <eurobioc@bioconductor.org>
-
-**Your sponsorship will help increase diversity and representation at the European Bioconductor Conference 2025** by:
-
-
-- Keeping registration costs affordable for academic participants and trainees.
-- Provide high quality hybrid/virtual streaming and post-production and sharing of videos and conference materials.
-- Providing caregiver awards to assist with childcare or eldercare costs.
-- Offering student diversity scholarships to increase participation of underrepresented minorities. 
-
-**Four levels of sponsorship are available.** Sponsors of all levels may give a short talk and/or present a poster highlighting the scientific interests of their organization in the poster session; for this, sponsors are kindly requested to submit an abstract within the deadline.
+\usepackage{amssymb}
 
 ```{r echo=FALSE}
 url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vTH6w9C1hF_umKXxAWtjXj5W-Jjz511mOgKXpgYfl-v_kqLzFKOoH9oJ5kvbYMCIQt8p_iIjntUU7VR/pub?gid=106633706&single=true&output=csv"
 df <- read.csv(url, check.names=FALSE)
-rownames(df) <- df[, 1]
-df <- df[, -1]
-names(df)[1] <- ""
+df[df == "X"] <- "$\\checkmark$"
 library(kableExtra)
 ```
 

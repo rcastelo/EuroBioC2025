@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -147,13 +176,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sponsors" id="toc-sponsors" class="nav-link active" data-scroll-target="#sponsors">Sponsors</a>
-  <ul class="collapse">
-  <li><a href="#sponsor-opportunities" id="toc-sponsor-opportunities" class="nav-link" data-scroll-target="#sponsor-opportunities">Sponsor Opportunities</a>
-  <ul class="collapse">
-  <li><a href="#interested-in-sponsoring-eurobioc2025" id="toc-interested-in-sponsoring-eurobioc2025" class="nav-link" data-scroll-target="#interested-in-sponsoring-eurobioc2025">Interested in sponsoring EuroBioC2025?</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#sponsors" id="toc-sponsors" class="nav-link active" data-scroll-target="#sponsors">Sponsors</a></li>
   </ul>
 </nav>
     </div>
@@ -165,21 +188,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="sponsors" class="level1">
 <h1>Sponsors</h1>
-<section id="sponsor-opportunities" class="level2">
-<h2 class="anchored" data-anchor-id="sponsor-opportunities">Sponsor Opportunities</h2>
-<p>Bioconductor is a non-profit organization that supports one of the most widely used data analysis tools in genomics. Bioconductor packages were downloaded by <a href="https://www.bioconductor.org/packages/stats/bioc/index.html">about a million distinct IPs</a> in 2023. Software packages are contributed by more than 1,200 community developers worldwide.</p>
-<p>The annual European conference will bring together Bioconductor developers and users from academia, industry, and government to network and discuss the latest developments and emerging technologies that drive computational biology. The conference is unique in that in addition to talks and poster session, the meeting features workshops that provide hands-on learning about Bioconductor packages. All conference materials (videos, slides, talks, posters, workshops) are published online such that the conference provides a rich resource for learning Bioconductor.</p>
-<section id="interested-in-sponsoring-eurobioc2025" class="level3">
-<h3 class="anchored" data-anchor-id="interested-in-sponsoring-eurobioc2025">Interested in sponsoring EuroBioC2025?</h3>
-<p>Please contact <a href="mailto:eurobioc@bioconductor.org" class="email">eurobioc@bioconductor.org</a></p>
-<p><strong>Your sponsorship will help increase diversity and representation at the European Bioconductor Conference 2025</strong> by:</p>
-<ul>
-<li>Keeping registration costs affordable for academic participants and trainees.</li>
-<li>Provide high quality hybrid/virtual streaming and post-production and sharing of videos and conference materials.</li>
-<li>Providing caregiver awards to assist with childcare or eldercare costs.</li>
-<li>Offering student diversity scholarships to increase participation of underrepresented minorities.</li>
-</ul>
-<p><strong>Four levels of sponsorship are available.</strong> Sponsors of all levels may give a short talk and/or present a poster highlighting the scientific interests of their organization in the poster session; for this, sponsors are kindly requested to submit an abstract within the deadline.</p>
+<p><a href="https://bioconductor.org">Bioconductor</a> is a non-profit organisation that supports one of the most widely used data analysis ecosystems in genomics. Software packages are contributed by more than 1,200 community developers worldwide, totaling over 42 million downloads by <a href="https://www.bioconductor.org/packages/stats/bioc/index.html">about 1 million distinct IP addresses</a> in 2023.</p>
+<p>The next edition of the European Bioconductor Conference (EuroBioC) will be held in Barcelona, Spain, at the <a href="https://prbb.org">Barcelona Biomedical Research Park</a> on 17-19 September 2025. We expect around 200 participants from the European and global bioinformatics community, coming from academia and industry. We are welcoming bioinformaticians, method developers, practitioners incorporating R/Bioconductor into robust workflows, and researchers using these tools for biological and biomedical discovery.</p>
+<p><strong>Your sponsorship will help us provide a high-quality in-person event, and increase equity, diversity and inclusion at EuroBioC2025</strong> by reducing registration costs and funding scholarships for students and other academic participants from lower income countries or with no other means of funding.</p>
+<p><strong>Four levels of sponsorship are available.</strong> Sponsors of all levels are invited to submit an abstract within the deadline, which will be subject to review alongside submissions by attendees. Selected abstracts will be given the opportunity to give a short talk or present a poster that may highlight the scientific interests of the organisation, research applications of their product(s), etc.</p>
 <table class=" lightable-material" style="font-family: &quot;Source Sans Pro&quot;, helvetica, sans-serif; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -202,18 +214,19 @@ Bronze
 <tbody>
 <tr>
 <td style="text-align:right;width: 66%; background-color: ghostwhite !important;">
+EUR
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
-10000 EUR
+10,000
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
-6000 EUR
+6,000
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
-3000 EUR
+3,000
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
-1000 EUR
+1,000
 </td>
 </tr>
 <tr>
@@ -221,7 +234,7 @@ Bronze
 Conference dinner &amp; one keynote speaker announced in your name
 </td>
 <td style="text-align:center;">
-X
+<span class="math inline">\(\checkmark\)</span>
 </td>
 <td style="text-align:center;">
 </td>
@@ -232,12 +245,12 @@ X
 </tr>
 <tr>
 <td style="text-align:right;width: 66%; background-color: ghostwhite !important;">
-One poster session announced in your name
+Mailing list for attendees who opt in to receive communications
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
+<span class="math inline">\(\checkmark\)</span>
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
-X
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
 </td>
@@ -246,12 +259,12 @@ X
 </tr>
 <tr>
 <td style="text-align:right;width: 66%; ">
-Booth for the duration of the conference
+One networking poster session announced in your name
 </td>
 <td style="text-align:center;">
-X
 </td>
 <td style="text-align:center;">
+<span class="math inline">\(\checkmark\)</span>
 </td>
 <td style="text-align:center;">
 </td>
@@ -260,12 +273,13 @@ X
 </tr>
 <tr>
 <td style="text-align:right;width: 66%; background-color: ghostwhite !important;">
-Booth during one day of the conference
+Space for an exhibition booth
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
+all days
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
-X
+one day
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
 </td>
@@ -281,15 +295,15 @@ Guarantee to present a poster (abstract submission required)
 <td style="text-align:center;">
 </td>
 <td style="text-align:center;">
-X
+<span class="math inline">\(\checkmark\)</span>
 </td>
 <td style="text-align:center;">
-X
+<span class="math inline">\(\checkmark\)</span>
 </td>
 </tr>
 <tr>
 <td style="text-align:right;width: 66%; background-color: ghostwhite !important;">
-Free in-person registrations
+Free registrations
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
 3
@@ -306,74 +320,58 @@ Free in-person registrations
 </tr>
 <tr>
 <td style="text-align:right;width: 66%; ">
-Logo on website and in all promotional material
+Promotion of your company on our social media platforms
 </td>
 <td style="text-align:center;">
-large
+<span class="math inline">\(\checkmark\)</span>
 </td>
 <td style="text-align:center;">
-basic
+<span class="math inline">\(\checkmark\)</span>
 </td>
 <td style="text-align:center;">
-basic
+<span class="math inline">\(\checkmark\)</span>
 </td>
 <td style="text-align:center;">
-basic
 </td>
 </tr>
 <tr>
 <td style="text-align:right;width: 66%; background-color: ghostwhite !important;">
-Thank you posts on our social media platforms
+Logo on website and in all promotional material
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
-X
+large
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
-X
+basic
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
-X
+basic
 </td>
 <td style="text-align:center;background-color: ghostwhite !important;">
-X
+basic
 </td>
 </tr>
 <tr>
 <td style="text-align:right;width: 66%; ">
-Promotion of your company on our social media platforms
+Thank you posts on our social media platforms
 </td>
 <td style="text-align:center;">
-X
+<span class="math inline">\(\checkmark\)</span>
 </td>
 <td style="text-align:center;">
-X
+<span class="math inline">\(\checkmark\)</span>
 </td>
 <td style="text-align:center;">
-X
+<span class="math inline">\(\checkmark\)</span>
 </td>
 <td style="text-align:center;">
-</td>
-</tr>
-<tr>
-<td style="text-align:right;width: 66%; background-color: ghostwhite !important;">
-Mailing list for attendees who opt in to receive communications
-</td>
-<td style="text-align:center;background-color: ghostwhite !important;">
-X
-</td>
-<td style="text-align:center;background-color: ghostwhite !important;">
-</td>
-<td style="text-align:center;background-color: ghostwhite !important;">
-</td>
-<td style="text-align:center;background-color: ghostwhite !important;">
+<span class="math inline">\(\checkmark\)</span>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
