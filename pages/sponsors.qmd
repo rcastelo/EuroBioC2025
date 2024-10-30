@@ -30,4 +30,5 @@ kbl(df, row.names=FALSE, align=c("r", rep("c", ncol(df)-1))) |>
     row_spec(seq(1, nrow(df), 2), background="ghostwhite") |>
     cat()
 ```
-
+Interested in sponsoring EuroBioC2025? Please contact
+[eurobioc@bioconductor.org](mailto:eurobioc@bioconductor.org).
