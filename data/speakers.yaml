@@ -1,4 +1,10 @@
 a:
+  nom: Vince Carey
+  pic: VinceCarey.png
+  pos: Professor of Medicine, Harvard Medical School, USA
+  txt: "As a Fulbright Specialist and as an invited lecturer, he has given short courses in statistical genomics on four continents. He was an inaugural faculty member in the Cold Spring Harbor Laboratory Summer Course on statistical analysis of genome-scale data (2005-2010 and intermittently thereafter), and in 2009 was inaugural Editor-in-Chief of The R Journal. A founding contributor to the Bioconductor project in 2001, Vince is now MPI of the NHGRI U24 supporting Bioconductor core developer activities. He is also MPI of the NHGRI AnVIL cloud computing platform. Vince has led several Chan-Zuckerberg Initiative Essential Open Source Software projects addressing enhanced community support and inclusiveness. One outcome is the YESCDS curriculum for introductory genomic data science with applications to cancer. As of 2024 Vince is a member of the Scientific Advisory Board of the Vaccine and Immunology Statistical Center of the Collaboration for AIDS Vaccine Discovery, and of the External Advisory Board for NIAID ImmPort."
+  web: https://vjcitn.github.io
+b:
   nom: Susan Holmes
   pic: SusanHolmes.png
   pos: Professor of Statistics, Stanford University, USA
@@ -17,7 +23,7 @@ a:
   among scientists analysing microbiome data. Susan enjoys teaching using R and 
   Bioconductor and tries to make everything she does freely available."
   web: https://susan.su.domains
-b:
+c:
   nom: James Sharpe
   pic: JamesSharpe.jpeg
   pos: Group Leader \& Head of Outstation, EMBL Barcelona, Spain
@@ -32,7 +38,7 @@ b:
   end Sharpes's research group develops new imaging and computational methods
   to understand one example of organogenesis – vertebrate limb development."
   web: https://www.embl.org/groups/sharpe
-c:
+d:
   nom: Maria Brbic
   pic: MariaBrbic.jpg
   pos: Tenure Track Assistant Professor, EPFL, Switzerland
@@ -49,7 +55,7 @@ c:
   SIB in 2023. Her research is focused on developing new machine learning methods and applying 
   her methods to advance biomedical research."
   web: https://people.epfl.ch/maria.brbic
-d:
+e:
   nom: Jacques Serizay
   pic: JacquesSerizay.png
   pos: Postdoctoral Fellow, Institut Pasteur, Paris, France
@@ -71,7 +77,7 @@ d:
   As an active member of the tidyomics group, he also contributes to the 
   development of a tidy ecosystem for genomics."
   web: https://jserizay.com
-e:
+f:
   nom: Helena Crowell
   pic: HelenaCrowell.png
   pos: Postdoctoral Fellow, CNAG, Barcelona, Spain
