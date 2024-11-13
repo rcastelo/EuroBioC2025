@@ -7,6 +7,8 @@ library(kableExtra)
 ```
 
 ```{r results="asis", echo=FALSE}
+# columns to display
+cols_to_display <- c("time", "type", "author", "title")
 # section headers
 ds <- c(
     "Wed. - Oct. 17, '25",
@@ -14,10 +16,10 @@ ds <- c(
     "Fri. - Oct. 19, '25")
 is <- split(seq(nrow(df)), df$day)
 # column widths
-ws <- paste0(100/(ncol(df)-1), "%")
-kbl(df[, -1], row.names=FALSE) |>
+ws <- paste0(100/length(cols_to_display), "%")
+kbl(df[, cols_to_display], row.names=FALSE) |>
     kable_material(full_width=TRUE) |>
-    column_spec(seq(ncol(df)-1), width=ws) |>
+    column_spec(seq_along(cols_to_display), width=ws) |>
     row_spec(which(df$type == "Keynote"), background="lavender") |>
     row_spec(which(df$type %in% c("Break", "Lunch")), background="lightyellow") |>
     pack_rows(ds[1], min(is[[1]]), max(is[[1]])) |>
