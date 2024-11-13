@@ -27,9 +27,11 @@
 
 ## Submission types
 
-### Talk
+### Short talk
 
-10 min talk immediately followed by 5 min of questions, focused on a package, an application note, or a current research presentation.
+10 min short talk immediately followed by 5 min of questions, focused on a
+package, or on a research or technological question that motivates software
+development.
 Presentations seeking collaboration or input from the community are encouraged.
 
 <!--
@@ -39,13 +41,17 @@ For more details, please refer to the [Poster & Slides Guidelines](https://f1000
 Inclusion of the [Bioconductor logo](https://www.bioconductor.org/about/logo/) and/or [#EuroBioC2024](https://f1000research.com/search?q=EuroBioC2024) tag is encouraged.
 -->
 
-### Demo
+### Workshop
 
-40 min demonstration of a software package or workflow.
+1 hr 45 min hands-on interactive workshop illustrating the use of a software
+package or workflow, where participants are expected to have the time and
+opportunity to follow along and perform analysis themselves.
 
 ### Poster
 
-Classical poster printed on paper to be stuck to a wall, approximate size A0.
+Classical portrait printed A0-poster to be showcased during 1 hr and 45 min
+poster session.
+
 <!--
 Poster presenters are encouraged to submit their poster to the [Bioconductor EuroBioC2024 conference gateway on F1000Research](https://f1000research.com/gateways/bioconductor/for-authors/publish-your-research).
 The submission is free, and published posters on F1000Research will receive a digital object identifier (DOI). 
@@ -58,10 +64,11 @@ Inclusion of the [Bioconductor logo](https://www.bioconductor.org/about/logo/) a
 ### Long workshop
 1.5 - 2 hour interactive workshop, where participants will be expected to have the time and opportunity to follow along and perform analysis themselves.
 
-<!--
-### Flashtalk
+--> 
 
-Flashtalks are very short presentations (5 min or less) that may be submitted up until the day of the session, granted on a first come, first served basis.
+### Flash talk
+
+Flash talks are very short presentations (5 min or less) that may be submitted up until the day of the session, granted on a first come, first served basis.
 
 Please refer to the [conference schedule](schedule.qmd) for the date and time of the flashtalk session.
 
@@ -71,18 +78,21 @@ We advise presenters to keep presentations simple (e.g., avoid animations where 
 
 Conference delegates already scheduled to present a short talk or poster are welcome to submit flashtalks.
 
+<!--
 <center>
 Submit a flashtalk using this <a href="https://forms.gle/TxRc5HDEi9Mhppp47">Google Form</a>.
 </center>
+-->
 
 ### Birds-of-a-feather
 
 Birds-of-a-feather sessions are free-format, organizer-lead interactive discussions on a topic relevant to the Bioconductor community.
-Birds-of-a-feather sessions can be proposed until **TBM**, by filing an issue in <https://github.com/bioconductor/eurobioc2024>.
+Birds-of-a-feather sessions should be proposed before the beginning of the conference, by filing an issue in <https://github.com/bioconductor/EuroBioC2025>.
 
 In the issue, please provide information about the plan and intended outcomes of the session, as well as the name and contact information of the organizer(s).
-You may refer to <https://github.com/Bioconductor/EuroBioC2023/issues> for examples submitted last year.
+You may refer to <https://github.com/Bioconductor/EuroBioC2024/issues> for examples submitted last year.
 
+<!--
 ### Contributed session
 
 Dedicated session consisting of 2-3 talks (10-15 min each) and a 10-15 min discussion by the session chair(s).
@@ -90,5 +100,4 @@ To propose a contributed session, all the intended talks must be submitted separ
 
 ### Digital poster
 Digital posters can be submitted and displayed/presented as plain pdf posters, shiny apps, web pages, ... be creative! Posters will be presented in a dedicated remote session.
-
 -->
