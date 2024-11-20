@@ -1,5 +1,16 @@
 /* css styles */
 
+/* right-hand table of contents */
+.sidebar nav[role="doc-toc"] ul > li > a {
+    color: grey !important;
+}
+
+/* highlighting currently active entry */
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+    font-weight: bold;
+    background-color: #f3fae9;
+}
+
 b,strong {
   font-weight: bold;
   color: black;
