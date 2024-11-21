@@ -16,6 +16,11 @@ b,strong {
   color: black;
 }
 
+.navbar-logo {
+  width: auto;
+  align-items: baseline;
+}
+
 .nav-link{
     color:white !important;
 }
@@ -25,7 +30,7 @@ b,strong {
   background-image: linear-gradient(to right,white,#0087af,#18a603);
 }
 
-.navbar-logo {
-  width: auto;
-  align-items: baseline;
+/* unfold hamburger menu on the right */
+.navbar-collapse {
+  text-align: right;
 }
