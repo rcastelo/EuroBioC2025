@@ -6,15 +6,31 @@ Names to be shown on the website should be used as file names.
 [If someone can implement a more elegant solution, please do!]-->
 
 ```{r results="asis", echo=FALSE}
+f <- \(dir, pat, n) {
+    # fix local order
+    pix <- list.files(dir, pat, full.names=TRUE)
+    one <- c("Caste", "Gonza", "Revil", "Ramos", "Crowe")
+    one <- lapply(one, grepl, pix)
+    if (any(unlist(one))) {
+        one <- unlist(lapply(one, which))
+        two <- setdiff(seq_along(pix), one)
+        pix <- pix[c(one, two)]
+    }
+    nms <- gsub("^_+(.*)\\..*", "\\1", basename(pix))
+    img <- sprintf("![](%s){height=150}", pix)
+    nan <- rep("", n - length(pix) %% n)
+    mtx <- matrix(c(img, nan), byrow=TRUE, ncol=n)
+    mty <- matrix(c(nms, nan), byrow=TRUE, ncol=n)
+    ij <- rep(seq_len(nrow(mtx)), each=2)+c(0, nrow(mtx))
+    df <- data.frame(rbind(mtx, mty)[ij, ])
+    if (all(nchar(df[nrow(df), ])) == 0) df <- df[-nrow(df), ]
+    knitr::kable(df[-nrow(df), ], align="c", col.names=NULL)
+}
 n <- 5 # num of pix per row
 dir <- "../images/organizers"
-pix <- list.files(dir, "^_", full.names=TRUE)
-nms <- gsub("^_(.*)\\..*", "\\1", basename(pix))
-img <- sprintf("![](%s){height=150}", pix)
-nan <- rep("", n - length(pix) %% n)
-mtx <- matrix(c(img, nan), byrow=TRUE, ncol=n)
-mty <- matrix(c(nms, nan), byrow=TRUE, ncol=n)
-ij <- rep(seq_len(nrow(mtx)), each=2)+c(0, nrow(mtx))
-df <- data.frame(rbind(mtx, mty)[ij, ])
-knitr::kable(df, align="c", col.names=NULL)
+pat <- c(Local="^__[A-Z]", Community="^_[A-Z]")
+for (. in names(pat)) {
+    cat("##", .)
+    print(f(dir, pat[.], n))
+}
 ```
