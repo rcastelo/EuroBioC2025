@@ -23,8 +23,8 @@ f <- \(dir, pat, n) {
     mty <- matrix(c(nms, nan), byrow=TRUE, ncol=n)
     ij <- rep(seq_len(nrow(mtx)), each=2)+c(0, nrow(mtx))
     df <- data.frame(rbind(mtx, mty)[ij, ])
-    if (all(nchar(df[nrow(df), ])) == 0) df <- df[-nrow(df), ]
-    knitr::kable(df[-nrow(df), ], align="c", col.names=NULL)
+    if (all(nchar(df[nrow(df), ]) == 0)) df <- df[-nrow(df), ]
+    knitr::kable(df, align="c", col.names=NULL)
 }
 n <- 5 # num of pix per row
 dir <- "../images/organizers"
