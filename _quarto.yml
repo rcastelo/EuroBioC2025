@@ -7,7 +7,7 @@ website:
   title: "European Bioconductor Conference 2025"
   navbar:
     toggle-position: right
-    logo: images/bioclogo.svg
+    logo: images/logoBioc.svg
     logo-alt: "Bioconductor"
     title: false
     collapse-below: lg
@@ -23,31 +23,33 @@ website:
           - href: pages/past-events.qmd
           - href: pages/code-of-conduct.qmd
           - href: pages/travel-information.qmd
+  page-footer:
+    background: "#000000"
+    left: |
+      [Copyright &copy; 2024 Bioconductor](/LICENCE.md)
+    center:
+      - href: https://github.com/Bioconductor/EuroBioC2025
+        icon: github
+        aria-label: GitHub
+      - href: https://bsky.app/profile/bioconductor.bsky.social
+        text: |
+          [![](images/logoBluesky.png){fig-alt="Bluesky" height=12px}
+          ](https://bsky.app/profile/bioconductor.bsky.social)
+        aria-label: Bluesky
+      - href: https://genomic.social/@bioconductor
+        icon: mastodon
+        aria-label: Mastodon
+      - href: https://www.linkedin.com/company/bioconductor
+        icon: linkedin
+        aria-label: LinkedIn
+      - href: https://slack.bioconductor.org
+        icon: slack
+        aria-label: Slack
+    right: |
+      [Code of Conduct](https://www.bioconductor.org/about/code-of-conduct)
 
 page-navigation: true
-
 back-to-top-navigation: false
-
-page-footer:
-  background: "#000000"
-  left: |
-    [Copyright &copy; 2024 Bioconductor](/LICENCE.md)
-  center:
-    - href: https://github.com/Bioconductor/EuroBioC2025
-      icon: github
-      aria-label: GitHub
-    - href: https://genomic.social/@bioconductor
-      icon: mastodon
-      aria-label: Mastodon
-    - href: https://www.linkedin.com/company/bioconductor
-      icon: linkedin
-      aria-label: LinkedIn
-    - href: https://slack.bioconductor.org
-      icon: slack
-      aria-label: Slack
-
-  right: |
-    [Code of Conduct](https://www.bioconductor.org/about/code-of-conduct)
 
 format:
   html:
