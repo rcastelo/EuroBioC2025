@@ -26,7 +26,7 @@ website:
   page-footer:
     background: "#000000"
     left: |
-      [Copyright &copy; 2024 Bioconductor](/LICENCE.md)
+      Copyright &copy; 2024 Bioconductor
     center:
       - href: https://github.com/Bioconductor/EuroBioC2025
         icon: github
