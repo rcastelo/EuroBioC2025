@@ -37,6 +37,18 @@ b,strong {
   text-align: right;
 }
 
+/* footer text-color & background */
 .nav-footer{
+  color: black !important;
   background-image: linear-gradient(to right,white,#ebf4f7,#0087af);
+}
+
+/* footer icons */
+.nav-footer li.nav-item a.nav-link{
+  color: black !important;
+}
+
+/* footer links */
+.nav-footer a:link{
+  color: black !important;
 }
