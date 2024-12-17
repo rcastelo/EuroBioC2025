@@ -33,7 +33,7 @@ website:
         aria-label: GitHub
       - href: https://bsky.app/profile/bioconductor.bsky.social
         text: |
-          [![](images/logoBluesky.png){fig-alt="Bluesky" height=12px}
+          [![](../images/logoBluesky.png){fig-alt="Bluesky" height=12px}
           ](https://bsky.app/profile/bioconductor.bsky.social)
         aria-label: Bluesky
       - href: https://genomic.social/@bioconductor
