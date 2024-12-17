@@ -24,10 +24,14 @@ website:
           - href: pages/code-of-conduct.qmd
           - href: pages/travel-information.qmd
   page-footer:
-    background: "#000000"
     left: |
+      [![](../images/logoUPF.png){width=30%}](https://www.upf.edu/biomed)
+      [![](../images/logoISGLOBAL.png){width=30%}](https://www.isglobal.org)
+      [![](../images/logoPRBB.png){width=30%}](https://prbb.org)
+    center: |
       Copyright &copy; 2024 Bioconductor
-    center:
+      [Code of Conduct](https://www.bioconductor.org/about/code-of-conduct)
+    right:
       - href: https://github.com/Bioconductor/EuroBioC2025
         icon: github
         aria-label: GitHub
@@ -45,9 +49,7 @@ website:
       - href: https://slack.bioconductor.org
         icon: slack
         aria-label: Slack
-    right: |
-      [Code of Conduct](https://www.bioconductor.org/about/code-of-conduct)
-
+   
 page-navigation: true
 back-to-top-navigation: false
 

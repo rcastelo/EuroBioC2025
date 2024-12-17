@@ -23,7 +23,8 @@ b,strong {
 }
 
 .nav-link{
-    color:white !important;
+  color:white !important;
+  text-color:white !important;
 }
 
 .navbar{
@@ -34,4 +35,8 @@ b,strong {
 /* unfold hamburger menu on the right */
 .navbar-collapse {
   text-align: right;
+}
+
+.nav-footer{
+  background-image: linear-gradient(to right,white,#ebf4f7,#0087af);
 }

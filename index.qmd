@@ -30,16 +30,3 @@ The European Bioconductor Conference (EuroBioC2025) will take place on
 :::
 
 ![](images/prbb_beach.png)
-
-::: grid
-::: {.g-col-12 .g-col-md-2}
-:::
-
-::: {.g-col-12 .g-col-md-2}
-### HOSTED BY
-[![](images/logoUPF.png){fig-align="left"}](https://www.upf.edu/biomed)
-[![](images/logoISGLOBAL.png){fig-align="left"}](https://www.isglobal.org)
-[![](images/logoPRBB.png){fig-align="left"}](https://prbb.org)
-:::
-
-:::
