@@ -31,6 +31,7 @@ website:
     center: |
       Copyright &copy; 2024 Bioconductor
       [Code of Conduct](https://www.bioconductor.org/about/code-of-conduct)
+      <br>contact: [eurobioc@bioconductor.org](mailto:eurobioc@bioconductor.org)
     right:
       - href: https://github.com/Bioconductor/EuroBioC2025
         icon: github
