@@ -28,10 +28,10 @@ website:
       [![](../images/logoUPF.png){width=30%}](https://www.upf.edu/biomed)
       [![](../images/logoISGLOBAL.png){width=30%}](https://www.isglobal.org)
       [![](../images/logoPRBB.png){width=30%}](https://prbb.org)
-    center: |
+    center: | 
       Copyright &copy; 2024 Bioconductor
-      [Code of Conduct](https://www.bioconductor.org/about/code-of-conduct)
-      <br>contact: [eurobioc@bioconductor.org](mailto:eurobioc@bioconductor.org)
+      <br>[eurobioc@bioconductor.org](mailto:eurobioc@bioconductor.org)
+      <br>[Code of Conduct](https://www.bioconductor.org/about/code-of-conduct)
     right:
       - href: https://github.com/Bioconductor/EuroBioC2025
         icon: github
