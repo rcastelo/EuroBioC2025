@@ -39,6 +39,8 @@ b,strong {
 
 /* footer text-color & background */
 .nav-footer{
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   align-items: center;
   color: black !important;
   background-image: linear-gradient(to right,white,#ebf4f7,#0087af);
